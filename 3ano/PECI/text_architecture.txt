@@ -1,0 +1,23 @@
+Neste capitulo vamos falar da arquitetura do nosso projeto (Figura X). 
+
+Dividimos a arquitetura em três camadas (representadas pelas cores): Web que é representada pela cor vermelha, Android pela cor verde, e a amarelo componentes que fazem parte do contexto Web e Android.
+
+A cor cinzenta representa componentes que não vão ser criados por nós, que já estão previamente criados pela infraestrutura do IT, que nós vamos usar e/ou modificar.
+São utilizadas duas base de dados, uma fornecida pelo IT e para dados provenientes do Kafka Broker (Kafka Database), e outra para os dados provenientes do MQTT broker (MQTT Database). 
+
+
+A API usada para recolher dados históricos das bases de dados é também fornecida pelo IT 
+
+
+A Web App subscreve o broker Kafka para receber dados em tempo real que vão ser posteriormente apresentados. O Broker recebe esses dados em tempo real, de uma determinada rede, a partir do Metrics Server. A Web App através de uma API recolhe os dados históricos das databases a partir de HTTP-Request.
+
+Através de um Kafka Connector os dados do Broker também são armazenados na database relativa a dados Web, para depois serem usadas por pesquisas históricas (relativas a certos intervalos de tempo).
+
+
+Num UE (User Equipment), a Android App recolhe as dados de um determinada rede 5G e publish ao MQTT Broker. Um agente MQTT guarda esses dados recebidos pelo Broker na base de dados relativa a dados Android. 
+
+A Android App também faz parte do contexto da Web App, pois a Web App obtem os dados realtime a partir do MQTT Broker, dados esses que são enviados para o broker pele Android App
+
+
+
+

@@ -1,0 +1,52 @@
+SEM RIP:
+Router 1:
+      10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
+C        10.1.2.0/24 is directly connected, FastEthernet0/1
+L        10.1.2.1/32 is directly connected, FastEthernet0/1
+C        10.1.3.0/24 is directly connected, FastEthernet0/0
+L        10.1.3.1/32 is directly connected, FastEthernet0/0
+      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.1.0/24 is directly connected, FastEthernet1/0
+L        192.168.1.1/32 is directly connected, FastEthernet1/0
+
+NOTA: C-Connected, L-Local, máscara /32 pois é apenas um endereço
+
+COM RIPv1:
+Router 1:
+      10.0.0.0/8 is variably subnetted, 5 subnets, 2 masks
+C        10.1.2.0/24 is directly connected, FastEthernet0/1
+L        10.1.2.1/32 is directly connected, FastEthernet0/1
+C        10.1.3.0/24 is directly connected, FastEthernet0/0
+L        10.1.3.1/32 is directly connected, FastEthernet0/0
+R        10.2.3.0/24 [120/1] via 10.1.3.3, 00:00:15, FastEthernet0/0
+                     [120/1] via 10.1.2.2, 00:00:25, FastEthernet0/1
+      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.1.0/24 is directly connected, FastEthernet1/0
+L        192.168.1.1/32 is directly connected, FastEthernet1/0
+R     192.168.2.0/24 [120/1] via 10.1.2.2, 00:00:25, FastEthernet0/1
+R     192.168.3.0/24 [120/1] via 10.1.3.3, 00:00:15, FastEthernet0/0
+
+NOTA: "via *.*.*.*", indica o router que encaminha. A interface a
+seguir é a do próprio router.
+O Classful Routing é responsável por deixar a máscara /24 na rede /25
+pois as máscaras de rede são assumidas com base na máscara da 
+interface de entrada
+
+COM RIPv2:
+Router 1:
+      10.0.0.0/8 is variably subnetted, 5 subnets, 2 masks
+C        10.1.2.0/24 is directly connected, FastEthernet0/1
+L        10.1.2.1/32 is directly connected, FastEthernet0/1
+C        10.1.3.0/24 is directly connected, FastEthernet0/0
+L        10.1.3.1/32 is directly connected, FastEthernet0/0
+R        10.2.3.0/24 [120/1] via 10.1.3.3, 00:00:15, FastEthernet0/0
+                     [120/1] via 10.1.2.2, 00:00:24, FastEthernet0/1
+      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.1.0/24 is directly connected, FastEthernet1/0
+L        192.168.1.1/32 is directly connected, FastEthernet1/0
+R     192.168.2.0/24 [120/1] via 10.1.2.2, 00:00:24, FastEthernet0/1
+      192.168.3.0/25 is subnetted, 1 subnets
+R        192.168.3.0 [120/1] via 10.1.3.3, 00:00:15, FastEthernet0/0
+
+
+ 

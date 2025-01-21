@@ -1,0 +1,107 @@
+\chapter{somm24nm}
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{somm24nm@{somm24nm}}
+\label{md__r_e_a_d_m_e_autotoc_md0}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md0}%
+
+
+SO/\+FSO Simulating a uniprocessor scheduler, contiguous memory allocation system
+
+\DoxyHorRuler{0}
+ \DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{\texorpdfstring{Prerequisites}{Prerequisites}}\label{md__r_e_a_d_m_e_autotoc_md1}
+On Ubuntu you need the following packages installed\+: {\itshape build-\/essential}, {\itshape cmake}, {\itshape doxygen}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{sudo\ apt\ install\ build-\/essential\ cmake\ doxygen}
+
+\end{DoxyCode}
+ In other Linux distributions you need equivalent packages installed.
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxysection{\texorpdfstring{Installing}{Installing}}\label{md__r_e_a_d_m_e_autotoc_md2}
+In a directory of your choice, unpack the tarball file
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{tar\ xvzf\ somm24nm.tgz}
+
+\end{DoxyCode}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md3}{}\doxysection{\texorpdfstring{Generating documentation}{Generating documentation}}\label{md__r_e_a_d_m_e_autotoc_md3}
+The code is documented in {\bfseries{doxygen}}. So, you can easily generate {\bfseries{html}} documentation pages.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{cd\ somm22nm/doc}
+\DoxyCodeLine{doxygen}
+
+\end{DoxyCode}
+ Then, you can display the pages running (inside the {\bfseries{doc}} directory)
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{firefox\ html/index.html\ \&}
+
+\end{DoxyCode}
+
+
+Of course, you can replace {\itshape firefox} with your favorite browser.
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md4}{}\doxysection{\texorpdfstring{Preparing the compilation environment}{Preparing the compilation environment}}\label{md__r_e_a_d_m_e_autotoc_md4}
+In a terminal, enter the base directory of your project, create the {\bfseries{build}} directory, and use {\itshape cmake} to prepare {\itshape make}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{cd\ somm24nm}
+\DoxyCodeLine{mkdir\ build}
+\DoxyCodeLine{cd\ build}
+\DoxyCodeLine{cmake\ ../src}
+
+\end{DoxyCode}
+
+
+If you prefer {\itshape ninja}, instead of {\itshape make},
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{cd\ somm24nm}
+\DoxyCodeLine{mkdir\ build}
+\DoxyCodeLine{cd\ build}
+\DoxyCodeLine{cmake\ -\/G\ Ninja\ ../src}
+
+\end{DoxyCode}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md5}{}\doxysection{\texorpdfstring{Building the code}{Building the code}}\label{md__r_e_a_d_m_e_autotoc_md5}
+In a terminal, enter the {\bfseries{build}} directory of your project and run {\itshape make} or {\itshape ninja}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{cd\ somm24nm/build}
+\DoxyCodeLine{make}
+
+\end{DoxyCode}
+ or
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{cd\ «directory-\/of-\/your-\/choice»}
+\DoxyCodeLine{cd\ somm22nm/build}
+\DoxyCodeLine{ninja}
+
+\end{DoxyCode}
+ \DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md6}{}\doxysection{\texorpdfstring{Testing the code}{Testing the code}}\label{md__r_e_a_d_m_e_autotoc_md6}
+After building the code, a program will be put in the {\ttfamily somm22-\/dz/bin} directory.
+
+Of course you can write your own testing programs. Do not forget to edit appropriately the main {\ttfamily CMake\+List.\+txt} file. 

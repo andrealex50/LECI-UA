@@ -1,0 +1,18 @@
+1 slide para cada secção da apresentação
+
+
+.) Apresentação do tema
+   -  Contexto geral do tema
+   -  Definição do problema
+.) O que resolve
+   -  Apresentação da solução proposta
+   -  Detalhamento dos benefícios
+.) Contribuição para os Objetivos do Negócio (Identificação dos stakeholders e seus benefícios específicos.)
+   -  Quantificação dos benefícios esperados
+   -  Demonstração do valor da solução para o cliente.
+.) Caracterização do Cliente e Domínio (Quem beneficia)
+   -  Análise do mercado em que o cliente opera OU Descrição do cliente e sua área de atuação
+   -  Definição do público-alvo da solução
+.) Funcionalidades (Como funciona)
+   -  Apresentação das funcionalidades de alto nível da solução.
+   -  Descrição detalhada de cada funcionalidade

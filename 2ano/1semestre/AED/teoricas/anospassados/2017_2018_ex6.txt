@@ -1,0 +1,19 @@
+Selection Sort ->
+i) o selection sort tem um número fixo de comparações de n(n-1)/2 e tem
+complexidade de O(n^2).
+ii) no melhor caso o número de comparações é de n(n-1)/2 e número de trocas é 0,
+que ocorre se o array já estiver ordenado.
+iii) no pior caso o número de comparações é o mesmo e o número de trocas é n-1
+que ocorre se tivermos de fazer todas as trocas.
+
+Bubble Sort ->
+i) o bubble sort tem uma complexidade de O(n^2).
+ii) no melhor caso o nº de comparações é n-1, que ocorre se o array estiver
+ordenado, e o número de trocas 0.
+iii) no pior caso o nº de comparações é n(n-1)/2 e o número de trocas o mesmo,
+e ocorre quando se encontra na ordem inversa.
+
+Insertion Sort ->
+i) o insertion sort tem uma complexidade de O(n^2).
+ii) no melhor caso o nº de comparações é n-1, e de trocas é de 0
+iii) no pior caso o nº de comparações é n(n-1)/2 e o de trocas é n(n-1)/2

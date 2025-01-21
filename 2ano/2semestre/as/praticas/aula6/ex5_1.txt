@@ -1,0 +1,25 @@
+5.1
+a)
+Os componentes BroadcastEngine e BlogViewer estão dependentes do FeedProvider
+e do DisplayConverter, respetivamente.
+Podemos presumir que o BroadcastEngine permite distribuir conteúdo, que é 
+fornecido pelo FeedProvider. O BlogViewer para ver o blog precisa que o blog seja
+convertido em um formato de exibição pelo DisplayConverter.
+
+O componente ConversionManagement requer a interface 
+DataSource, e o componente BlogDataSource fornece essa interface.
+Por sua vez o BlogDataSource está dependente da interface Logger, fornecido
+pelo Log4j.
+
+b)
+
+O componente Log4j (para aplicações Java) permite registar eventos e mensagens 
+num ficheiro de registo, ou seja, é um registo da atividade de um sistema ou 
+aplicação. Pode ser usado pelos desenvolvidores para acompanhar o que os 
+utilizadores estão a fazer numa aplicação.
+
+Para incluir o Apache Log4j num projeto podemos usar:
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-core:2.23.1'
+}

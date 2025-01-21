@@ -1,0 +1,27 @@
+Relativamente à autenticação no GSM, indique a resposta errada:
+a. Permite autêntica os terminais móveis mas não permite autenticar a rede         V
+b. Usa um protocolo de autenticação multimétodo                                       V  
+c. Baseia-se no conhecimento mútuo de uma chave secreta                            V
+d. Não é imune a ataques com dicionários                                              F    , é imune, challenge response, nada é exposto e é tudo random             
+
+
+Relativamente à autenticação no GSM, indique a resposta errada:
+a. Permite autenticar os terminais móveis mas não permite autenticar a rede.           V
+b. A posse do módulo SIM onde está a chave secreta é normalmente suficiente para um    
+terminal móvel se autenticar                                                                F    , sim o GSM permite delegar
+c. Permite delegar a autenticação dos terminais móveis noutras redes                        V                     
+d. Baseia-se no conhecimento mútuo de uma chave secreta                                V
+
+
+Relativamente à autenticação no GSM (Global System for Mobile Communications):
+a. Baseia-se no conhecimento mútuo (utente e rede) de um PIN.                                                   F
+b. O desafio enviado pela rede é baseado no PIN.                                                                F
+c. A função de transformação do desafio apresentado pela rede é universal e realizada pelos terminais móveis (SIM).  F      , não é universal, é escolhido pela operadora
+d. É imune a ataques com dicionário.                                                                                 V
+
+
+Relativamente à autenticação GSM (Global System for Mobile Communications):
+a. A função de transformação do desafio apresentado pela rede é universal e realizada pelos terminais móveis (SIM).     F    , não é universal, é escolhido pela operadora      
+b. Baseia-se no conhecimento mútuo (utente e rede) de um PIN.                                                       F
+c. A posse do módulo SIM onde está a chave secreta é normalmente suficiente para um terminal móvel se autenticar.       F    , primeiro teria de desbloquear o cartão com o PIN
+d. Usa um protocolo de autenticação multimétodo.                                                                        V                                                                

@@ -1,0 +1,11 @@
+SelectionSort  	- Pouco Provável   - Feito
+BubbleSort 	- Muito Provável   - Feito
+InsertionSort 	- Muito Provável   - Feito
+TorresdeHanoi 	- Pouco Provável   - Feito
+MergeSort	- Pouco Provável   - Feito
+HeapSort	- Muito Provável   - Feito
+Hash		- Pouco Provável   - Feito
+BinaryTree	- Muito Provável
+SearchBinaryTree- Muito Provável
+Depth-First	- Provável
+Breadth-First	- Provável

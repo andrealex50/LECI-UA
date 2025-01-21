@@ -1,0 +1,9 @@
+confirmado pelo stor:
+1. B (a alinea A é mais dos metodos ageis)
+2. (vamos fazer código se houver testes que precisem de código) -TDD
+   D
+3. D
+4. B
+5. E
+6. C
+7. C

@@ -1,0 +1,21 @@
+4.5
+
+a) Sim é possível criar um modelo de atividade com base na informação dada, pois
+o processo descrito tem uma sequência estruturada de eventos.
+
+b) Também é possível pois as informações fornecidas descrevem um processo 
+com interações claras entre diferentes atores.
+
+c) Não é muito útil fazermos um diagrama de classes pois o sistema parece 
+ser relativamente simples em termos de estrutura. 
+Também não é útil devido as relações entre usuários e o sistema, por exemplo o
+cancelamento e adesão.
+Um diagrama de classes não é ideal para representar essas interações 
+e processos sucessivos.
+
+d) Faz sentido criar um diagrama de sequência pois este tipo de diagrama
+mostra como um conjunto de objetos interagem num processo ao longo do tempo, o que
+acontece neste caso.
+
+e) Sim também faz sentido criar um diagrama de estados pois para este sistema permite
+seguir o processo de adesão nos seus estados distintos.

@@ -1,0 +1,6 @@
+ex5
+
+é iBGP logo não adiciona o proprio AS ao AS_PATH
+se fosse anunciar para fora aí adicionava
+
+AS path reads from right (origin) to left (neighbour AS where route is learned from)

@@ -1,0 +1,78 @@
+Análise da Complexidade de Algoritmos:
+	- Multiplicação de matrizes
+	- Formulas séries
+	- Procura do maior elemento - (código e analise de complexidade)
+	- Procura sequencial num array - (código e analise de complexidade)
+	- Big-Oh, Big-Omega, Big-Theta
+	- Ordens de Complexidade
+
+Algoritmos de Procura:
+	- Linear Search – Procura sequencial num array não ordenado
+	- Linear Search – Procura sequencial num array ordenado
+	- Binary Search – Procura binária
+
+Algoritmos de Ordenação:
+	- Selection Sort – Ordenação por seleção
+	- Bubble Sort – Ordenação por troca sequencial
+	- Insertion Sort – Ordenação por inserção
+
+Algoritmos Recursivos:
+	- Algoritmos recursivos
+	- Inverter a ordem dos elementos de um array
+	- As Torres de Hanói
+	- Procura Binária - Versão recursiva
+	- The Smoothness Rule
+	- Merge-Sort
+
+Programação Dinâmica:
+	- Saber o que é programação dinâmica
+	- Memoization
+
+TADs:
+	- Fazer exercicios
+	- TAD STACK
+	- TAD QUEUE
+	- TAD LIST
+	- TAD SORTED LIST
+
+Binary Trees:
+	- Árvores binárias; terminologia e algumas propriedades
+	- TAD Árvore Binária
+	- Algoritmos recursivos
+	- Travessias recursivas em Pré-Ordem, Em-Ordem e Pós-Ordem
+	- Travessia iterativa, por níveis, usando uma FILA / QUEUE
+	- Travessia iterativa, em pré-ordem, usando uma PILHA / STACK
+	- BST : Binary Search Tree
+	- BST vs AVL
+	- Priority Queues
+	- Binary Heaps
+	- TAD MIN-Heap
+	- TAD MAX-Heap
+	- Heap-Sort
+
+Dicionários:
+	- Hash Tables
+	- Fazer Funções de Hashing
+	- Open Addressing
+	- Hash Tables – Representação usando Separate Chaining
+
+Grafos:
+	- Grafos: Terminologia; Exemplos de aplicação; Propriedades
+	- Possíveis estruturas de dados
+	- Travessia em Profundidade (“Depth-First”)
+	- Travessia por Níveis (“Breadth-First”)
+	- Ordenação Topológica
+
+Linguagem C++:
+	- Recolher dos slides o que achar importante
+
+Procura Exaustiva:
+	- O Problema do Caixeiro Viajante (“The Traveling Salesman Problem”)
+	- O Problema da Soma de Subconjuntos (“The Subset Sum Problem”)
+        - O Problema da Mochila (“The 0-1 Knapsack Problem”)
+	- Geração de Quadrados Mágicos
+
+Tópicos Avançados:
+	- Algoritmos deterministas vs não-deterministas
+	- Tipos de problemas
+	- Problemas de Decisão : As Classes P, NP e NP-Completo
