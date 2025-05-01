@@ -1,5 +1,0 @@
-<html metal:use-macro="load: base.pt">
-  <div metal:fill-slot="content">
-    <p>Search ${structure: query}</p>
-  </div>
-</html>
