@@ -1,4 +1,0 @@
-Classes: obras, autores, utilizadores, livro, obra
-Term: nome, ano de nascimento, assuntos, descritores
-Use case: pesquisam,
-
